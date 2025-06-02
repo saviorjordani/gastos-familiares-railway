@@ -1,0 +1,15 @@
+
+{
+  "plugins": [
+    "postgresql",
+    "redis"
+  ],
+  "services": [
+    {
+      "name": "n8n",
+      "source": {
+        "type": "dockerfile"
+      }
+    }
+  ]
+}
